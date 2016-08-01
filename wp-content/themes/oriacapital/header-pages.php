@@ -20,7 +20,7 @@
         <![endif]-->
         <?php
         $postType = get_queried_object();
-        if ($postType->name == "blog" || $postType->post_type == "blog" || $postType->taxonomy == "category" || $postType->taxonomy == "post_tag") { ?>
+        if ($postType->name == "blog" || $postType->post_type == "blog" || $postType->taxonomy == "category" || $postType->taxonomy == "post_tag" || $postType->name == "post") { ?>
             <link rel="stylesheet" id="style-oria-css" href="<?php bloginfo('template_url');?>/assets/css/oria.css?ver=1.0" type="text/css" media="all">
         <?php
         }
