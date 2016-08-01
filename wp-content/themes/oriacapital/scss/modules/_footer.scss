@@ -1,0 +1,27 @@
+.logo-footer {
+	width: 131px;
+}
+
+.hr-border { 
+    margin-bottom: 65px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #E6E6E6; 
+}
+
+.box-footer {
+    margin: 10px auto;
+    padding: 50px 20px;
+    width: 80%;
+    background-color: #fff;
+    p {
+    	font-family: $font-global;
+    	color: $white;
+    	font-size: 22px;
+    	line-height: 100%;
+    	span {
+    		font-family: $font-global;
+	    	color: $white;
+	    	font-size: 26px;
+    	}
+    }
+}

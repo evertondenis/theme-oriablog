@@ -1,0 +1,606 @@
+.btn-primary {
+	margin: $spacing 0 20px 0;
+	font-family: $font-global;
+	font-size: 14px;
+    color: $yellow;
+    background-color: $gray;
+    border-color: $gray;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+
+    &:active {
+    	margin: $spacing 0 20px 0;
+        font-family: $font-global;
+        font-size: 14px;
+        color: $yellow;
+        background-color: $gray;
+        border-color: $gray;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -ms-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+    }
+    &:focus {
+    	margin: $spacing 0 20px 0;
+        font-family: $font-global;
+        font-size: 14px;
+        color: $yellow;
+        background-color: $gray;
+        border-color: $gray;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -ms-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+    }
+    &:visited {
+    	margin: $spacing 0 20px 0;
+        font-family: $font-global;
+        font-size: 14px;
+        color: $yellow;
+        background-color: $gray;
+        border-color: $gray;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -ms-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+    }
+
+	span {
+		position: relative;
+		left: 0;
+		-webkit-transition: all .2s ease-out;
+	    -moz-transition: all .2s ease-out;
+	    -ms-transition: all .2s ease-out;
+	    -o-transition: all .2s ease-out;
+	    transition: all .2s ease-out;
+	}
+	i {
+		margin-left: 10px;
+		-webkit-transition: all .2s ease-out;
+	    -moz-transition: all .2s ease-out;
+	    -ms-transition: all .2s ease-out;
+	    -o-transition: all .2s ease-out;
+	    transition: all .2s ease-out;
+	}
+
+    &:hover {
+    	background-color: $yellow !important;
+    	border-color: $yellow !important;
+    	// left: -10px;
+        color: $gray;
+
+    	i {
+    		// margin-left: 20px;
+    		color: $gray;
+    	}
+    	span {
+    		// left: -5px;
+    		color: $gray;
+    	}
+    }
+}
+
+.sidebar {
+    .searchform {
+        #searchsubmit {
+            margin: 20px 0;
+            padding: 13px;
+            font-family: $font-global;
+            font-size: 14px;
+            color: $gray;
+            background-color: $yellow;
+            border: 1px solid $yellow;
+            border-radius: 4px;
+            -webkit-transition: all .2s ease-out;
+            -moz-transition: all .2s ease-out;
+            -ms-transition: all .2s ease-out;
+            -o-transition: all .2s ease-out;
+            transition: all .2s ease-out;
+
+            &:active {
+                margin: 20px 0;
+                padding: 13px;
+                font-family: $font-global;
+                font-size: 14px;
+                color: $gray;
+                background-color: $yellow;
+                border: 1px solid $yellow;
+                border-radius: 4px;
+                -webkit-transition: all .2s ease-out;
+                -moz-transition: all .2s ease-out;
+                -ms-transition: all .2s ease-out;
+                -o-transition: all .2s ease-out;
+                transition: all .2s ease-out;
+            }
+            &:focus {
+                margin: 20px 0;
+                padding: 13px;
+                font-family: $font-global;
+                font-size: 14px;
+                color: $gray;
+                background-color: $yellow;
+                border: 1px solid $yellow;
+                border-radius: 4px;
+                -webkit-transition: all .2s ease-out;
+                -moz-transition: all .2s ease-out;
+                -ms-transition: all .2s ease-out;
+                -o-transition: all .2s ease-out;
+                transition: all .2s ease-out;
+            }
+            &:visited {
+                margin: 20px 0;
+                padding: 13px;
+                font-family: $font-global;
+                font-size: 14px;
+                color: $gray;
+                background-color: $yellow;
+                border: 1px solid $yellow;
+                border-radius: 4px;
+                -webkit-transition: all .2s ease-out;
+                -moz-transition: all .2s ease-out;
+                -ms-transition: all .2s ease-out;
+                -o-transition: all .2s ease-out;
+                transition: all .2s ease-out;
+            }
+
+            span {
+                position: relative;
+                left: 0;
+                -webkit-transition: all .2s ease-out;
+                -moz-transition: all .2s ease-out;
+                -ms-transition: all .2s ease-out;
+                -o-transition: all .2s ease-out;
+                transition: all .2s ease-out;
+            }
+            i {
+                margin-left: 10px;
+                -webkit-transition: all .2s ease-out;
+                -moz-transition: all .2s ease-out;
+                -ms-transition: all .2s ease-out;
+                -o-transition: all .2s ease-out;
+                transition: all .2s ease-out;
+            }
+
+            &:hover {
+                background-color: $gray !important;
+                border-color: $gray !important;
+                border: 1px solid $gray;
+                color: $yellow;
+
+                i {
+                    color: $yellow;
+                }
+                span {
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}
+
+.btn-blue-light {
+    margin: 20px 0;
+    font-family: $roboto-regular;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $gray;
+    border-color: $gray;
+
+    &:active {
+        @extend .btn-blue-light;
+    }
+    &:focus {
+        @extend .btn-blue-light;
+    }
+    &:visited {
+        @extend .btn-blue-light;
+    }
+
+    span {
+        position: relative;
+        left: 0;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -ms-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+    }
+    i {
+        margin-left: 10px;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -ms-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+    }
+
+    &:hover {
+        background-color: $white !important;
+        border-color: $white !important;
+        left: -10px;
+
+        i {
+            margin-left: 20px;
+            color: $white;
+        }
+        span {
+            left: -5px;
+            color: $white;
+        }
+    }
+}
+
+.btn-ler-mais {
+    background-color: none !important;
+    border: 0 !important;
+    margin: 20px 0;
+    padding-left: 0;
+    font-family: $roboto-regular;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $white;
+
+    &:active {
+        @extend .btn-ler-mais;
+    }
+    &:focus {
+        @extend .btn-ler-mais;
+    }
+    &:visited {
+        @extend .btn-ler-mais;
+    }
+
+    span {
+        position: relative;
+        left: 0;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -ms-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+    }
+
+    &:hover {
+        left: -10px;
+
+        i {
+            color: $gray;
+        }
+        span {
+            left: 10px;
+            color: $gray;
+        }
+    }
+}
+
+.case-list {
+    .content {
+        padding-top: 110px;
+    }
+    
+    .btn-ler-mais {
+        @extend .btn-ler-mais;
+        color: $white;
+
+        &:hover {
+            left: -10px;
+
+            i {
+                color: $white !important;
+            }
+            span {
+                left: 10px;
+                color: $white !important;
+            }
+        }
+    }
+}
+
+.more-link {
+    display: none;
+}
+
+.c-hamburger {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: $button-width;
+    height: $button-height;
+    font-size: 0;
+    text-indent: -9999px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    transition: background $button-transistion-duration;
+
+    span {
+        display: block;
+        position: absolute;
+        top: $bar-top;
+        left: $button-pad;
+        right: $button-pad;
+        height: $bar-thickness;
+        background: white;
+
+        &::before {
+            position: absolute;
+            display: block;
+            left: 0;
+            width: 100%;
+            height: $bar-thickness;
+            background-color: #fff;
+            content: "";
+            top: -10px;
+        }
+        &::after {
+            position: absolute;
+            display: block;
+            left: 0;
+            width: 100%;
+            height: $bar-thickness;
+            background-color: #fff;
+            content: "";
+            bottom: -10px;
+        }
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.c-hamburger--htx {
+    background-color: $yellow;
+
+    span {
+        transition: background 0s $button-transistion-duration;
+
+        &::before {
+            transition-duration: $button-transistion-duration, $button-transistion-duration;
+            transition-delay: $button-transistion-duration, 0s;
+            transition-property: top, transform;
+        }
+        &::after {
+            transition-duration: $button-transistion-duration, $button-transistion-duration;
+            transition-delay: $button-transistion-duration, 0s;
+            transition-property: bottom, transform;
+        }
+    }
+
+    &.is-active {
+        background-color: $button-color;
+
+        span {
+            background: none;
+
+            &::before {
+                top: 0;
+                transform: rotate(45deg);
+                transition-delay: 0s, $button-transistion-duration;
+            }
+            &::after {
+                bottom: 0;
+                transform: rotate(-45deg);
+                transition-delay: 0s, $button-transistion-duration;
+            }
+        }
+    }
+}
+
+.pagination-icon-l {
+    margin-right: 0px !important ;
+    margin-left: 5px !important ;
+}
+
+.pagination-icon-r {
+    margin-right: 5px !important ;
+    margin-left: 0px !important ;
+}
+
+.pagination {
+    clear: both;
+    padding: 20px 15px;
+    position: relative;
+    font-size: 11px;
+    line-height: 13px;
+
+    .btn-primary { 
+        margin: 0 0 20px 0;
+        font-size: 16px;
+    }
+
+    span {
+        font-family: $font-global;
+        font-size: 16px;
+        display: block;
+        float: left;
+        margin: 2px 2px 2px 0;
+        padding: 6px 9px 5px 9px;
+        text-decoration: none;
+        width: auto;
+        color: $gray;
+        background: $yellow;
+        border-radius: 5px;
+    }
+
+    a {
+        font-family: $font-global;
+        font-size: 16px;
+        display: block;
+        float: left;
+        margin: 2px 2px 2px 0;
+        padding: 6px 9px 5px 9px;
+        text-decoration: none;
+        width: auto;
+        color: $gray;
+        background: $bg-body;
+
+        &:hover {
+            color: $gray;
+            background: $yellow;
+            border-radius: 5px;
+        }
+    }
+
+    .inactive {
+        padding: 11px 12px;
+        margin: 0 10px;
+    }
+
+    .current {
+        padding: 11px 12px;
+        margin: 0 10px;
+        color: $gray;
+        background: $yellow;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-ler-mais {
+        font-size: 14px;
+    }
+    .btn-blue-light {
+        font-size: 14px;
+    }
+    .btn-primary {
+        font-size: 14px;
+    }
+}
+
+.fa-facebook {
+    color: $white;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    padding-top: 8px;
+    background-color: #5c61c4;
+    border: 1px solid #5c61c4;
+    border-radius: 50%;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    &:hover {
+        color: #5c61c4;
+        background-color: transparent;
+        border: 1px solid #5c61c4;
+    }
+}
+
+.linkedin { margin-top: -8px; }
+
+.fa-twitter {
+    color: $white;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    padding-top: 8px;
+    background-color: #28a1e7;
+    border: 1px solid #28a1e7;
+    border-radius: 50%;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    &:hover {
+        color: #28a1e7;
+        background-color: transparent;
+        border: 1px solid #28a1e7;
+    }
+}
+.fa-google-plus {
+    color: $white;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    padding-top: 11px;
+    background-color: #f60c38;
+    border: 1px solid #f60c38;
+    border-radius: 50%;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    &:hover {
+        color: #f60c38;
+        background-color: transparent;
+        border: 1px solid #f60c38;
+    }
+}
+.fa-linkedin {
+    color: $gray;
+    width: 35px;
+    height: 35px;
+    font-size: 19px;
+    padding-top: 7px;
+    background-color: $yellow;
+    border: 1px solid $yellow;
+    border-radius: 50%;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+
+    &:hover {
+        color: $white;
+        background-color: transparent;
+        border: 1px solid $white;
+    }
+}
+.fa-instagram {
+    color: $white;
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    padding-top: 7px;
+    background-color: #ef5214;
+    border: 1px solid #ef5214;
+    border-radius: 50%;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    &:hover {
+        color: #ef5214;
+        background-color: transparent;
+        border: 1px solid #ef5214;
+    }
+}
+
+.fa-phone {
+    margin-bottom: 30px;
+    padding-top: 12px;
+    color: $gray;
+    width: 70px;
+    height: 70px;
+    font-size: 45px;
+    border: 2px solid $gray;
+    border-radius: 50%;
+}
+
+.fa-map {
+    margin-bottom: 30px;
+    padding-top: 15px;
+    color: $gray;
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+    border: 2px solid $gray;
+    border-radius: 50%;
+}

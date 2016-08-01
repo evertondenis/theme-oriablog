@@ -1,0 +1,18 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+body {
+    padding-bottom: 40px; 
+}
+
+/* lib/bootstrap/3.3.5/css/bootstrap.css, linha 4662 */
+/*.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus*/
+.navbar-inverse .navbar-nav > .current_page_item > a,
+.navbar-inverse .navbar-nav > .current_page_item > a:hover,
+.navbar-inverse .navbar-nav > .current_page_item > a:focus,
+.navbar-inverse .navbar-nav > .current_page_parent > a,
+.navbar-inverse .navbar-nav > .current_page_parent > a:hover,
+.navbar-inverse .navbar-nav > .current_page_parent > a:focus {
+    color: #fff;
+    background-color: #080808;
+}

@@ -1,0 +1,55 @@
+$padding-section: 70px;
+$spacing: 45px;
+$padding-col-case: 120px;
+$title: 60px;
+$title-span: 40px;
+$sub-title: 26px;
+
+$md-title: 30px;
+$md-title-span: 20px;
+$md-sub-title: 12px;
+
+$sm-title: 17px;
+$sm-title-span: 14px;
+$sm-sub-title: 12px;
+
+////
+// Btn hamburger
+////
+$button-color: #FB3B0E;					// Button color default
+$button-color-active: #3D2C3F;			// Button color active
+$button-width: 40px;                    // The width of the button area
+$button-height: 40px;                   // The height of the button area
+$bar-thickness: 2px;                    // The thickness of the button bars
+$bar-top: 19px;		                    // The thickness of the button bars
+$button-pad: 5px;                      // The left/right padding between button area and bars.
+$button-bar-space: 1px;                // The spacing between button bars
+$button-transistion-duration: 0.3s;     // The transition duration
+
+////
+// Fonts
+////
+$font-title: 'Bitter', serif;
+$font-global: 'Open Sans', sans-serif;
+$roboto-regular: roboto-regular, arial, helvetica, verdana, tahoma, sans-serif;
+$roboto-medium: roboto-medium, arial, helvetica, verdana, tahoma, sans-serif;
+$roboto-bold: roboto-bold, arial, helvetica, verdana, tahoma, sans-serif;
+$roboto-light: roboto-light, arial, helvetica, verdana, tahoma, sans-serif;
+$roboto-italic: roboto-italic, arial, helvetica, verdana, tahoma, sans-serif;
+
+////
+// Colors
+////
+$white: #FFF;
+$gray: #414042;
+$yellow: #FFD400;
+$bg-body: #F5F5F5;
+
+////
+// Backgrounds Colors
+////
+$bg-gray-light: #F3F5FB;
+
+$bg-color-default: #F7F9FB;
+$border-diagonal-color: rgba(140, 153, 191, .20);
+$border-color-default: $border-diagonal-color;
