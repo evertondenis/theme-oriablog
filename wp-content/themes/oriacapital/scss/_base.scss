@@ -389,6 +389,8 @@ ul {
         color: $white;
     }
 
+    .wpcf7-mail-sent-ok { color: #FFF }
+
     input[type="text"] {
         margin-bottom: 10px;
         padding: 12px;
@@ -403,6 +405,7 @@ ul {
         -ms-transition: all .2s ease-out;
         -o-transition: all .2s ease-out;
         transition: all .2s ease-out;
+        color: #FFF;
 
         &:focus {
             border: 2px solid $yellow;
@@ -423,6 +426,7 @@ ul {
         -ms-transition: all .2s ease-out;
         -o-transition: all .2s ease-out;
         transition: all .2s ease-out;
+        color: #FFF;
 
         &:focus {
             border: 2px solid $yellow;

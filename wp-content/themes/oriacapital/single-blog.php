@@ -116,7 +116,7 @@
                         <?php endwhile; ?>
                     <?php endif; ?>
                 </div>
-                <!-- <div class="row"><?php //comments_template( '/comments.php' ); ?></div> -->
+                <div class="row"><?php comments_template( '/comments.php' ); ?></div>
             </div>
 
             <!-- Sidebar -->
